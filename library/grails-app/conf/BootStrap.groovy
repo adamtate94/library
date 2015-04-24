@@ -2,10 +2,18 @@ import com.library.*
 
 class BootStrap {
 
+    def init = { import com.library.*
+
+class BootStrap {
+
     def init = { def librarian1=new Librarian(name:'Adam',email:'adamtate@email.com',
 userName:'adam123',
 password:'password',
 telephone:'12345',).save()
+    }
+    def destroy = {
+    }
+}
     }
     def destroy = {
     }
