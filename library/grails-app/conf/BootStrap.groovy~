@@ -1,5 +1,3 @@
-import com.library.*
-
 class BootStrap {
 
     def init = { def librarian1=new Librarian(name:'Adam',email:'adamtate@email.com',

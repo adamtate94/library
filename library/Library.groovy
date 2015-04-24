@@ -2,20 +2,16 @@ package com.library
 
 class Librarian {
 
-string location
-string openingHours
-string book
-string book
-string librarian
+String location
+String openingHours
+String book
+String book
+String librarian
 
 
 
 static contraints={
-location()
-openingHours()
-book()
-student()
-librarian()
+
 
 }
 }

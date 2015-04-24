@@ -15,6 +15,12 @@ String toString(){
 
 
 static contraints={
+title()
+author()
+isbn()
+dateBorrowed()
+returnDate()
+student()
 
 }
 }
